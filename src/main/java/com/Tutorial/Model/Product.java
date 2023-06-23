@@ -1,15 +1,13 @@
 package com.Tutorial.Model;
 
 import jakarta.persistence.*;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
-import lombok.With;
+import lombok.*;
 
 import java.util.Set;
 
 @Data
 @NoArgsConstructor
+@AllArgsConstructor
 @Entity
 public class Product {
     @Id
